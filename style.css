@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS 2", sans-serif;
+  font-family: "Shippori Antique", sans-serif;
+}
+.navbar {
+  width: 100%;
+  height: 90px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  width: 80%;
+}
+.right {
+  width: 20%;
+}
+.left {
+  display: flex;
+}
+.left ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left ul li {
+  padding: 10px 25px;
+}
+.left ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+.main {
+  height: 90vh;
+  width: 100%;
+}
+.main .bg {
+  width: 100%;
+  height: 100%;
+  background: url("./bg.jpg");
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.active {
+  color: orangered !important;
+}
+.model i {
+  margin-left: 5px;
+}
+.content {
+  position: absolute;
+  top: 200px;
+  color: #fff;
+  left: 150px;
+}
+.content h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.content h6 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+}
+.parallel {
+  height: 7px;
+  width: 75px;
+  background: #fff;
+  transform: skew(-20deg);
+}
+.active1 {
+  background: orangered;
+}
+.btn {
+  border: 2px solid #fff;
+  padding: 15px 35px;
+  font-weight: 400;
+  font-size: 18px;
+  background: transparent;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.layer {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  padding: 20px;
+  left: 800px;
+}
+.parallel {
+  margin-left: 25px;
+}
+.setting-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setting-btn {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  overflow: hidden;
+}
+.message-btn {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 20px;
+  bottom: 60px;
+  background: orangered;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.message-btn i {
+  font-size: 35px;
+  position: relative;
+  bottom: 8px;
+}
